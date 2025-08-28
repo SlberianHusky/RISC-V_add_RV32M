@@ -286,7 +286,7 @@ module RISCV_MultiCore(
 													.trd_mod(trd_mod_3)
 	);
 	//OS_Kernel module=====///////////////////////////////////////////////////////////////////////////////////////
-	OS_Kernel JUN_Kernel(
+	OS_Kernel OS_Kernel(
 		.clk(clk), .reset(reset),
 													.core_activate(core_activate_state),
 		.trd_active_0(multithread_active_0),
